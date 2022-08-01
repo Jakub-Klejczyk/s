@@ -31,7 +31,7 @@ btn.addEventListener("click", () => {
 });
 
 del.addEventListener("click", () => {
-  if (productsInBasket > 0) {
+  if (vipera.number > 0) {
     vipera.removeItem();
   }
 });
